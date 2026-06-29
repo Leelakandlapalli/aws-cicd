@@ -8,8 +8,10 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class Course {
-
-    private int id;
+   private int id;
+    public int getId() {
+        return id;
     private String name;
     private double price;
+    }
 }
